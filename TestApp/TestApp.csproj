@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{053FA3EA-B75E-4358-A09E-651324A5BBE2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestApp</RootNamespace>
+    <AssemblyName>TestApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro">
+      <HintPath>..\packages\MahApps.Metro.1.0.0.0\lib\net45\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.0.0.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SlideMenuControl\SlideMenuControl.csproj">
+      <Project>{29F371CE-AA26-4C72-9C66-C58A742C9D93}</Project>
+      <Name>SlideMenuControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\AppStore.png" />
+    <Resource Include="Icon\Calculator.png" />
+    <Resource Include="Icon\Calendar.png" />
+    <Resource Include="Icon\Clock.png" />
+    <Resource Include="Icon\Compass.png" />
+    <Resource Include="Icon\Contacts.png" />
+    <Resource Include="Icon\Control Center.png" />
+    <Resource Include="Icon\Documents.png" />
+    <Resource Include="Icon\Downloads.png" />
+    <Resource Include="Icon\Facetime.png" />
+    <Resource Include="Icon\Find Friends.png" />
+    <Resource Include="Icon\Game Center.png" />
+    <Resource Include="Icon\Health Book.png" />
+    <Resource Include="Icon\Health.png" />
+    <Resource Include="Icon\Home.png" />
+    <Resource Include="Icon\iBooks.png" />
+    <Resource Include="Icon\iCloud Drive.png" />
+    <Resource Include="Icon\iOS 8.png" />
+    <Resource Include="Icon\iTunes Radio.png" />
+    <Resource Include="Icon\iTunes Store.png" />
+    <Resource Include="Icon\iTunes U.png" />
+    <Resource Include="Icon\Mail.png" />
+    <Resource Include="Icon\Maps.png" />
+    <Resource Include="Icon\Messages.png" />
+    <Resource Include="Icon\Multitaks.png" />
+    <Resource Include="Icon\Newstand.png" />
+    <Resource Include="Icon\Notification Center.png" />
+    <Resource Include="Icon\Passbook.png" />
+    <Resource Include="Icon\Phone.png" />
+    <Resource Include="Icon\Photo Booth.png" />
+    <Resource Include="Icon\Photos.png" />
+    <Resource Include="Icon\Podcats.png" />
+    <Resource Include="Icon\Reminders.png" />
+    <Resource Include="Icon\Safari.png" />
+    <Resource Include="Icon\SDK.png" />
+    <Resource Include="Icon\Settings.png" />
+    <Resource Include="Icon\Siri.png" />
+    <Resource Include="Icon\Stocks.png" />
+    <Resource Include="Icon\Tips.png" />
+    <Resource Include="Icon\Trailers.png" />
+    <Resource Include="Icon\Trash Empty.png" />
+    <Resource Include="Icon\Trash Full.png" />
+    <Resource Include="Icon\User.png" />
+    <Resource Include="Icon\Videos.png" />
+    <Resource Include="Icon\Voice Memos.png" />
+    <Resource Include="Icon\Weather.png" />
+    <Resource Include="Icon\Youtube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="IconHover\Calculator.png" />
+    <Resource Include="IconHover\Calendar.png" />
+    <Resource Include="IconHover\Contacts.png" />
+    <Resource Include="IconHover\Control Center.png" />
+    <Resource Include="IconHover\Documents.png" />
+    <Resource Include="IconHover\Downloads.png" />
+    <Resource Include="IconHover\Facetime.png" />
+    <Resource Include="IconHover\Find Friends.png" />
+    <Resource Include="IconHover\Game Center.png" />
+    <Resource Include="IconHover\Health Book.png" />
+    <Resource Include="IconHover\Health.png" />
+    <Resource Include="IconHover\Home.png" />
+    <Resource Include="IconHover\iBooks.png" />
+    <Resource Include="IconHover\iCloud Drive.png" />
+    <Resource Include="IconHover\iOS 8.png" />
+    <Resource Include="IconHover\iTunes Radio.png" />
+    <Resource Include="IconHover\iTunes Store.png" />
+    <Resource Include="IconHover\iTunes U.png" />
+    <Resource Include="IconHover\Mail.png" />
+    <Resource Include="IconHover\Maps.png" />
+    <Resource Include="IconHover\Messages.png" />
+    <Resource Include="IconHover\Multitaks.png" />
+    <Resource Include="IconHover\Newstand.png" />
+    <Resource Include="IconHover\Notification Center.png" />
+    <Resource Include="IconHover\Passbook.png" />
+    <Resource Include="IconHover\Phone.png" />
+    <Resource Include="IconHover\Photo Booth.png" />
+    <Resource Include="IconHover\Photos.png" />
+    <Resource Include="IconHover\Podcats.png" />
+    <Resource Include="IconHover\Reminders.png" />
+    <Resource Include="IconHover\Safari.png" />
+    <Resource Include="IconHover\SDK.png" />
+    <Resource Include="IconHover\Settings.png" />
+    <Resource Include="IconHover\Siri.png" />
+    <Resource Include="IconHover\Stocks.png" />
+    <Resource Include="IconHover\Tips.png" />
+    <Resource Include="IconHover\Trailers.png" />
+    <Resource Include="IconHover\Trash Empty.png" />
+    <Resource Include="IconHover\Trash Full.png" />
+    <Resource Include="IconHover\User.png" />
+    <Resource Include="IconHover\Videos.png" />
+    <Resource Include="IconHover\Voice Memos.png" />
+    <Resource Include="IconHover\Weather.png" />
+    <Resource Include="IconHover\Youtube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="IconHover\AppStore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="IconClick\AppStore.png" />
+    <Resource Include="IconClick\Calculator.png" />
+    <Resource Include="IconClick\Calendar.png" />
+    <Resource Include="IconClick\Contacts.png" />
+    <Resource Include="IconClick\Control Center.png" />
+    <Resource Include="IconClick\Documents.png" />
+    <Resource Include="IconClick\Downloads.png" />
+    <Resource Include="IconClick\Facetime.png" />
+    <Resource Include="IconClick\Find Friends.png" />
+    <Resource Include="IconClick\Game Center.png" />
+    <Resource Include="IconClick\Health Book.png" />
+    <Resource Include="IconClick\Health.png" />
+    <Resource Include="IconClick\Home.png" />
+    <Resource Include="IconClick\iBooks.png" />
+    <Resource Include="IconClick\iCloud Drive.png" />
+    <Resource Include="IconClick\iOS 8.png" />
+    <Resource Include="IconClick\iTunes Radio.png" />
+    <Resource Include="IconClick\iTunes Store.png" />
+    <Resource Include="IconClick\iTunes U.png" />
+    <Resource Include="IconClick\Mail.png" />
+    <Resource Include="IconClick\Maps.png" />
+    <Resource Include="IconClick\Messages.png" />
+    <Resource Include="IconClick\Multitaks.png" />
+    <Resource Include="IconClick\Newstand.png" />
+    <Resource Include="IconClick\Notification Center.png" />
+    <Resource Include="IconClick\Passbook.png" />
+    <Resource Include="IconClick\Phone.png" />
+    <Resource Include="IconClick\Photo Booth.png" />
+    <Resource Include="IconClick\Photos.png" />
+    <Resource Include="IconClick\Podcats.png" />
+    <Resource Include="IconClick\Reminders.png" />
+    <Resource Include="IconClick\Safari.png" />
+    <Resource Include="IconClick\SDK.png" />
+    <Resource Include="IconClick\Settings.png" />
+    <Resource Include="IconClick\Siri.png" />
+    <Resource Include="IconClick\Stocks.png" />
+    <Resource Include="IconClick\Tips.png" />
+    <Resource Include="IconClick\Trailers.png" />
+    <Resource Include="IconClick\Trash Empty.png" />
+    <Resource Include="IconClick\Trash Full.png" />
+    <Resource Include="IconClick\User.png" />
+    <Resource Include="IconClick\Videos.png" />
+    <Resource Include="IconClick\Voice Memos.png" />
+    <Resource Include="IconClick\Weather.png" />
+    <Resource Include="IconClick\Youtube.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,37 @@
+﻿<UserControl xmlns:TitleControl="clr-namespace:SlideMenuControl;assembly=TitleControl"  x:Class="SlideMenuControl.SlideControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:blake="clr-namespace:Blake.NUI.WPF.Gestures;assembly=Blake.NUI.WPF"
+             mc:Ignorable="d"
+             Width="Auto"
+             xmlns:DragAndDrop="clr-namespace:SlideMenuControl.DragDrop"
+             xmlns:AnimatedStack="clr-namespace:SlideMenuControl.AnimationControl"
+             xmlns:Scroll="clr-namespace:SlideMenuControl.Scroll" MouseLeave="UserControl_MouseLeave" TouchUp="UserControl_TouchUp">
+    <UserControl.Resources>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.Resources>
+            <DragAndDrop:TargetPanelsConverter x:Key="targetPanelsConverter" />
+        </Grid.Resources>
+        <Scroll:DragDropScrollViewer x:Name="scroll"  HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden"
+                                     TouchDown="scroll_TouchDown" TouchMove="scroll_TouchMove" ScrollChanged="scroll_ScrollChanged" 
+                                     PanningMode="HorizontalOnly">
+            <DockPanel>
+                <AnimatedStack:AnimatedStackPanel x:Name="sp" Orientation="Horizontal" HorizontalAlignment="Left" Width="Auto" Stylus.IsPressAndHoldEnabled="False"
+                       blake:Events.HoldGesture="sp_HoldGesture"                      
+                       DragAndDrop:DragAndDropManager.DropTargetPanel="{Binding RelativeSource={RelativeSource Self}}"
+                       PreviewDragOver="sp_PreviewDragOver"
+                       MouseLeftButtonDown="sp_MouseLeftButtonDown" MouseLeftButtonUp="sp_MouseLeftButtonUp">
+
+                <DragAndDrop:DragAndDropManager.DropTargetPanelList>
+                    <MultiBinding Converter="{StaticResource targetPanelsConverter}">
+                        <Binding ElementName="sp" />
+                    </MultiBinding>
+                </DragAndDrop:DragAndDropManager.DropTargetPanelList>
+            </AnimatedStack:AnimatedStackPanel>
+                </DockPanel>
+        </Scroll:DragDropScrollViewer>
+    </Grid>
+</UserControl>

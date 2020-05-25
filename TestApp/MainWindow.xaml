@@ -1,0 +1,21 @@
+﻿<mahapp:MetroWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:SlideMenuControl="clr-namespace:SlideMenuControl;assembly=SlideMenuControl"
+        xmlns:mahapp ="http://metro.mahapps.com/winfx/xaml/controls"
+        x:Class="TestApp.MainWindow"
+        WindowStartupLocation="CenterScreen"
+        BorderThickness="1"
+        BorderBrush="Green"
+        Title="Slide Menu Demo" Height="Auto" Width="960" SizeToContent="Height">
+    <Grid>
+
+        <StackPanel Orientation="Horizontal">
+            <!--<SlideMenuControl:WebViewer Name="myWeb" />-->
+            <Border Background="DarkKhaki" Height="400" Width="Auto" PreviewMouseLeftButtonDown ="Border_PreviewMouseLeftButtonDown" PreviewTouchDown="Border_PreviewTouchDown">
+                <Image Name="imgPage"></Image>
+            </Border>
+            <SlideMenuControl:SlideControl x:Name="sldMenu" Background="Gray" Height="Auto" Width="Auto" />
+        </StackPanel>
+    </Grid>
+</mahapp:MetroWindow>

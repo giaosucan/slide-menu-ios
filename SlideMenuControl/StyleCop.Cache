@@ -1,0 +1,842 @@
+<stylecopresultscache>
+  <version>10</version>
+  <sourcecode name="WebViewer.xaml.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/10/2015 08:29:49</timestamp>
+      <milliseconds>430</milliseconds>
+    </settings>
+    <timestamp>02/10/2015 08:29:49</timestamp>
+    <milliseconds>711</milliseconds>
+    <violations>
+      <violation namespace="CustomRules.NamingRules" rule="NamingPublicClassMustMatchWithSourceFile" ruleCheckId="CR1354">
+        <context>public class name should be the same as file name.</context>
+        <line>21</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>23</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="CR1101">
+        <context>The member 'InitializeComponent' must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>25</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The method must have a documentation header.</context>
+        <line>28</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="CR1101">
+        <context>The member 'myWebView' must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>30</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="WebViewer.g.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/10/2015 08:29:49</timestamp>
+      <milliseconds>430</milliseconds>
+    </settings>
+    <timestamp>02/10/2015 08:33:24</timestamp>
+    <milliseconds>229</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AnimationStack.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/13/2015 13:37:32</timestamp>
+      <milliseconds>21</milliseconds>
+    </settings>
+    <timestamp>02/23/2015 16:28:36</timestamp>
+    <milliseconds>380</milliseconds>
+    <violations>
+      <violation namespace="CustomRules.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="CR1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="CR1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The class must have a documentation header.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="CR1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>29</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="SingleLineCommentsMustNotBeFollowedByBlankLine" ruleCheckId="CR1512">
+        <context>A single-line comment must not be followed by a blank line. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>128</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="CR1202">
+        <context>All private fields must be placed after all public fields.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="CR1202">
+        <context>All private fields must be placed after all public fields.</context>
+        <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="CR1202">
+        <context>All private fields must be placed after all public fields.</context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="CR1202">
+        <context>All private fields must be placed after all public fields.</context>
+        <line>20</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The field must have a documentation header.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.NamingRules" rule="NamingConstReadonly" ruleCheckId="CR1358">
+        <context>readonly or const field should consist of upper-case letter and '_' (underbar). </context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The field must have a documentation header.</context>
+        <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.NamingRules" rule="NamingConstReadonly" ruleCheckId="CR1358">
+        <context>readonly or const field should consist of upper-case letter and '_' (underbar). </context>
+        <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The field must have a documentation header.</context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.NamingRules" rule="NamingConstReadonly" ruleCheckId="CR1358">
+        <context>readonly or const field should consist of upper-case letter and '_' (underbar). </context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The field must have a documentation header.</context>
+        <line>20</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.NamingRules" rule="NamingConstReadonly" ruleCheckId="CR1358">
+        <context>readonly or const field should consist of upper-case letter and '_' (underbar). </context>
+        <line>20</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>23</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="CR1101">
+        <context>The member 'Deceleration' must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>26</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The method must have a documentation header.</context>
+        <line>30</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="CR1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>55</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="CR1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>63</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="CR1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>68</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="CR1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>73</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="CR1202">
+        <context>All protected methods must be placed after all public methods.</context>
+        <line>77</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="CR1202">
+        <context>All protected methods must be placed after all public methods.</context>
+        <line>130</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="CR1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>138</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="CR1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>153</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="CR1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>168</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="CR1101">
+        <context>The member 'SelectedItemIndex' must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>35</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="CR1101">
+        <context>The member 'SelectedItemIndex' must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>47</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="CR1101">
+        <context>The member 'SelectedItemIndex' must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>49</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="CR1101">
+        <context>The member 'SelectedItemIndex' must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>57</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="CR1101">
+        <context>The member 'SelectedItemIndex' must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>58</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="CR1101">
+        <context>The member 'SelectedItemIndex' must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>69</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="CR1101">
+        <context>The member 'SelectedItemIndex' must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>70</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The method must have a documentation header.</context>
+        <line>77</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="SingleLineCommentMustBePrecededByBlankLine" ruleCheckId="CR1515">
+        <context>A single-line comment must be preceded by a blank line or another single-line comment, or must be the first item in its scope. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>105</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The method must have a documentation header.</context>
+        <line>130</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="DocumentationHeadersMustNotContainBlankLines" ruleCheckId="CR1644">
+        <context>The documentation header must not contain blank lines. Use the 'para' tag to insert line breaks within documentation text.</context>
+        <line>136</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementDocumentationMustHaveSummaryText" ruleCheckId="CR1606">
+        <context>The summary section in the documentation header must not be empty.</context>
+        <line>138</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="CR1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>143</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="CR1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>144</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="DocumentationHeadersMustNotContainBlankLines" ruleCheckId="CR1644">
+        <context>The documentation header must not contain blank lines. Use the 'para' tag to insert line breaks within documentation text.</context>
+        <line>151</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementDocumentationMustHaveSummaryText" ruleCheckId="CR1606">
+        <context>The summary section in the documentation header must not be empty.</context>
+        <line>153</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="CR1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>158</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="CR1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>159</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="DocumentationHeadersMustNotContainBlankLines" ruleCheckId="CR1644">
+        <context>The documentation header must not contain blank lines. Use the 'para' tag to insert line breaks within documentation text.</context>
+        <line>166</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementDocumentationMustHaveSummaryText" ruleCheckId="CR1606">
+        <context>The summary section in the documentation header must not be empty.</context>
+        <line>168</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="CR1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>173</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="CR1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>174</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <project key="1230902646">
+    <configuration>TRACE</configuration>
+  </project>
+  <sourcecode name="CustomTile.xaml.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/13/2015 13:37:32</timestamp>
+      <milliseconds>21</milliseconds>
+    </settings>
+    <timestamp>03/04/2015 09:57:02</timestamp>
+    <milliseconds>335</milliseconds>
+    <violations>
+      <violation namespace="Microsoft.StyleCop.CSharp.CsParser" rule="SyntaxException" ruleCheckId="SA0102">
+        <context>A syntax error has been discovered in file CustomTile\CustomTile.xaml.cs on line 416.</context>
+        <line>416</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="SlideControl.xaml.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/13/2015 13:37:32</timestamp>
+      <milliseconds>21</milliseconds>
+    </settings>
+    <timestamp>03/04/2015 10:31:59</timestamp>
+    <milliseconds>541</milliseconds>
+    <violations>
+      <violation namespace="Microsoft.StyleCop.CSharp.CsParser" rule="SyntaxException" ruleCheckId="SA0102">
+        <context>A syntax error has been discovered in file SlideControl.xaml.cs on line 423.</context>
+        <line>423</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <project key="1516930640">
+    <configuration>TRACE</configuration>
+  </project>
+  <project key="-570518510">
+    <configuration>TRACE</configuration>
+  </project>
+  <sourcecode name="DisableTouchConversionToMouse.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/13/2015 13:37:32</timestamp>
+      <milliseconds>21</milliseconds>
+    </settings>
+    <timestamp>03/12/2015 10:53:30</timestamp>
+    <milliseconds>5</milliseconds>
+    <violations>
+      <violation namespace="CustomRules.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="CR1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="CR1505">
+        <context>An opening curly bracket must not be followed by a blank line.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="CR1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="SingleLineCommentsMustNotBeFollowedByBlankLine" ruleCheckId="CR1512">
+        <context>A single-line comment must not be followed by a blank line. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>82</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="SingleLineCommentsMustNotBeFollowedByBlankLine" ruleCheckId="CR1512">
+        <context>A single-line comment must not be followed by a blank line. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>128</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="CR1400">
+        <context>The class must have an access modifier.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="CR1400">
+        <context>The field must have an access modifier.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.NamingRules" rule="NamingConstReadonly" ruleCheckId="CR1358">
+        <context>readonly or const field should consist of upper-case letter and '_' (underbar). </context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="CR1400">
+        <context>The field must have an access modifier.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ConstantsMustAppearBeforeFields" ruleCheckId="CR1203">
+        <context>All constant and readonly private fields must be placed before all non-constant, non-readonly private fields.</context>
+        <line>84</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ConstantsMustAppearBeforeFields" ruleCheckId="CR1203">
+        <context>All constant and readonly private fields must be placed before all non-constant, non-readonly private fields.</context>
+        <line>86</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ConstantsMustAppearBeforeFields" ruleCheckId="CR1203">
+        <context>All constant and readonly private fields must be placed before all non-constant, non-readonly private fields.</context>
+        <line>87</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="CR1201">
+        <context>All constructors must be placed after all fields.</context>
+        <line>62</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="CR1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>30</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="CR1400">
+        <context>The method must have an access modifier.</context>
+        <line>22</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="CR1201">
+        <context>All methods must be placed after all delegates.</context>
+        <line>34</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="CR1202">
+        <context>All private methods must be placed after all public methods.</context>
+        <line>64</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="CR1201">
+        <context>All methods must be placed after all destructors.</context>
+        <line>73</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="CR1400">
+        <context>The delegate must have an access modifier.</context>
+        <line>34</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="CR1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>56</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="CR1400">
+        <context>The method must have an access modifier.</context>
+        <line>36</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="CR1400">
+        <context>The field must have an access modifier.</context>
+        <line>62</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The method must have a documentation header.</context>
+        <line>64</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="CurlyBracketsMustNotBeOmitted" ruleCheckId="CR1503">
+        <context>The body of the if statement must be wrapped in opening and closing curly brackets.</context>
+        <line>66</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="CR1101">
+        <context>The member 'disposed' must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>66</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="CR1101">
+        <context>The member 'disposed' must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>69</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="CR1101">
+        <context>The member 'Dispose' must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>75</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="CR1400">
+        <context>The field must have an access modifier.</context>
+        <line>84</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="CR1400">
+        <context>The field must have an access modifier.</context>
+        <line>86</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="CR1400">
+        <context>The field must have an access modifier.</context>
+        <line>87</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The struct must have a documentation header.</context>
+        <line>90</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="CR1505">
+        <context>An opening curly bracket must not be followed by a blank line.</context>
+        <line>91</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="CR1400">
+        <context>The struct must have an access modifier.</context>
+        <line>90</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.NamingRules" rule="NamingStruct" ruleCheckId="CR1356">
+        <context>struct should start with 'T'.</context>
+        <line>90</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The struct must have a documentation header.</context>
+        <line>98</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="CR1400">
+        <context>The struct must have an access modifier.</context>
+        <line>98</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.NamingRules" rule="NamingStruct" ruleCheckId="CR1356">
+        <context>struct should start with 'T'.</context>
+        <line>98</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="CR1600">
+        <context>The class must have a documentation header.</context>
+        <line>108</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="CR1400">
+        <context>The class must have an access modifier.</context>
+        <line>108</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="ParametersMustBeOnSameLineOrSeparateLines" ruleCheckId="CR1117">
+        <context>All method parameters must be placed on the same line, or each parameter must be placed on a separate line.</context>
+        <line>111</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="SplitParametersMustStartOnLineAfterDeclaration" ruleCheckId="CR1116">
+        <context>If the method parameters are on separate lines, the first parameter must begin on the line beneath the name of the method.</context>
+        <line>111</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="ParameterMustFollowComma" ruleCheckId="CR1115">
+        <context>The parameter must begin on the line after the previous parameter.</context>
+        <line>111</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="ParametersMustBeOnSameLineOrSeparateLines" ruleCheckId="CR1117">
+        <context>All method parameters must be placed on the same line, or each parameter must be placed on a separate line.</context>
+        <line>119</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="SplitParametersMustStartOnLineAfterDeclaration" ruleCheckId="CR1116">
+        <context>If the method parameters are on separate lines, the first parameter must begin on the line beneath the name of the method.</context>
+        <line>119</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="ParameterMustFollowComma" ruleCheckId="CR1115">
+        <context>The parameter must begin on the line after the previous parameter.</context>
+        <line>119</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="CustomRules.ReadabilityRules" rule="ParameterMustFollowComma" ruleCheckId="CR1115">
+        <context>The parameter must begin on the line after the previous parameter.</context>
+        <line>120</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <project key="-892695875">
+    <configuration>TRACE</configuration>
+  </project>
+  <project key="-647116955">
+    <configuration>TRACE</configuration>
+  </project>
+  <project key="-2077303047">
+    <configuration>TRACE</configuration>
+  </project>
+  <project key="1254756475">
+    <configuration>TRACE</configuration>
+  </project>
+  <sourcecode name="SessionDrop.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>525</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AnimatedStackPanel.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>463</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="EnhanceDragDrop.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>510</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DragAndDropItem.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>510</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="InterceptMouse.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>541</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="MouseHold.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>541</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ErrorStatus.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>594</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="RandomExt.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>594</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TargetPanelsConverter.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>525</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:05</timestamp>
+    <milliseconds>78</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="SlideHepler.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>609</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DragDropScrollViewer.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:05</timestamp>
+    <milliseconds>166</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TimeWait.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>639</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Resources.Designer.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:05</timestamp>
+    <milliseconds>78</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name=".NETFramework,Version=v4.5.AssemblyAttributes.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>06/28/2017 22:14:57</timestamp>
+    <milliseconds>230</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GeneratedInternalTypeHelper.g.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>08/09/2017 23:09:17</timestamp>
+    <milliseconds>625</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>08/09/2017 23:09:13</timestamp>
+    <milliseconds>213</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>08/09/2017 23:09:13</timestamp>
+    <milliseconds>214</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>08/09/2017 23:09:13</timestamp>
+    <milliseconds>215</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="MouseUtilties.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>541</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TileVibration.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>647</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DragAndDropManager.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>510</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DragAdorner.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:04</timestamp>
+    <milliseconds>494</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="CustomTile.g.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>08/09/2017 23:09:17</timestamp>
+    <milliseconds>547</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Settings.Designer.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>01/01/2017 17:01:05</timestamp>
+    <milliseconds>78</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="SlideControl.g.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/01/2017 17:02:17</timestamp>
+      <milliseconds>145</milliseconds>
+    </settings>
+    <timestamp>08/09/2017 23:09:17</timestamp>
+    <milliseconds>614</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>
